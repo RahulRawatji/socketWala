@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(204, 204, 193);
+    font-family: 'Changa', sans-serif;
+}
+
+.chat_section{
+    min-width: 50%;
+}
+
+.brand{
+    background-color: rgba(110, 70, 110, 0.466);
+    display: flex;
+    padding: 2%;
+}
+
+.message{   
+    border-radius: 4px;
+    margin-bottom: 40px;
+    max-width: 40%;
+}
+
+.msg_area{
+    background-color: rgba(167, 194, 194, 0.847);
+    padding: 2%;
+    overflow-y: scroll;
+    height: 400px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.incoming{
+    background: #8F8BE8;
+    color:#fff;
+    float: right;
+    position: absolute;
+}
+.outgoing{
+    background: #e9eafd;
+    color: #787986;
+    float: left;
+    position: absolute;
+}
+.message h4{
+    color: #333;
+}
+#textarea{
+    width: 96%;
+    padding: 10px;
+    margin: 1%;
+    outline: none;
+}
